@@ -215,7 +215,7 @@ const ContactUs = () => {
                         <div className="form-group">
                             <label htmlFor="email">Phone Number</label>
                             <input
-                                type="email"
+                                type="text"
                                 id="phonenumber"
                                 name="phoneNumber"
                                 value={formData.phoneNumber}
