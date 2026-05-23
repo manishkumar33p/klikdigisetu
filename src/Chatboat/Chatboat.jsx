@@ -155,12 +155,12 @@ const ChatBot = () => {
 
     // SEND EMAIL
     emailjs.send(
-      "service_3z8pkj1",
-      "template_zfanfmp",
+      "service_ln661z3",
+      "template_8jnq0na",
       {
         message: input,
       },
-      "dKgJCNwJ0irTaeaZ1"
+      "2KZyT3Pd8osfJpezW"
     )
 
     .then(() => {
