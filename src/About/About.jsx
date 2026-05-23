@@ -206,8 +206,9 @@ import {
 // import MarvVideo2 from "../marvv3.mp4";
 import Software from "../Software.jfif";
 import Niss73 from "../niss73.mp4";
-import CEO from "../Manish.jpeg";
-import CFO from "../N.jpeg";
+import CEO from "../N23.jpg";
+import CFO from "../N12.jfif";
+import COO from "../N2.jfif";
 
 const services = [
   {
@@ -278,7 +279,7 @@ const About = () => {
         <div className="hero-content">
           <div className="hero-left">
             <span className="hero-tag">
-              NISS Software Solutions
+              Klik Digi Setu
             </span>
 
             <h1 className="hero-head">
@@ -357,7 +358,7 @@ const About = () => {
           </h2>
 
           <p>
-            NISS Software Solutions helps businesses
+            Klik Digi Setu helps businesses
             grow with modern websites, marketing,
             branding, and automation systems.
           </p>
@@ -392,9 +393,9 @@ const About = () => {
           <div className="team-card">
             <img src={CEO} alt="CEO" />
 
-            <h3>Manish Kumar Singh</h3>
+            <h3>Sweta Kumari</h3>
 
-            <span>CEO</span>
+            <span>Managing Director & CEO</span>
 
             <p>
               Leading innovation and business strategy.
@@ -404,14 +405,27 @@ const About = () => {
           <div className="team-card">
             <img src={CFO} alt="CFO" />
 
-            <h3>KR Roushan</h3>
+            <h3>Lovely Kumari </h3>
 
-            <span>CFO</span>
+            <span>Managing Director & CFO</span>
 
             <p>
               Managing finance and company operations.
             </p>
           </div>
+
+          <div className="team-card">
+            <img src={COO} alt="CFO" />
+
+            <h3>Sweta Kumari </h3>
+
+            <span>Managing Director & COO</span>
+
+            <p>
+            Overseeing daily operations and team management.
+            </p>
+          </div>
+          
         </div>
       </section>
 

@@ -28,7 +28,7 @@ const CompanyOverview = () => {
           <div className="company-left">
 
             <span className="company-tag">
-              NISS Software Solutions
+              Klik Digi Setu
             </span>
 
             <h1 className="hero-overview">
@@ -72,7 +72,7 @@ const CompanyOverview = () => {
             </h2>
 
             <p>
-              NISS Software Solutions is a modern technology company
+              Klik Digi Setu is a modern technology company
               providing website development, app development,
               digital marketing, branding, automation systems,
               and business growth solutions for startups,

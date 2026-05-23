@@ -205,11 +205,11 @@ const Packages = () => {
           <div className="software-left">
 
             <span className="software-tag">
-              NISS Software Solutions
+              Klik Digi Setu
             </span>
 
             <h1 className="hero-head">
-              Build Smart Digital Products With NISS Software
+              Build Smart Digital Products With Klik Digi Setu
             </h1>
 
             <p>

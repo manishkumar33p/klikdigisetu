@@ -436,7 +436,7 @@ const Navbar = () => {
           onClick={closeMenuOnMobile}
         >
           <img src={logo1} alt="logo" className="nav__logo-img" />
-          Brand Nova Digital Orbit
+        Klik Digi Setu
         </NavLink>
 
         {/* MENU */}

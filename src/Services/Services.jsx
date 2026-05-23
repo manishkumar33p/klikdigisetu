@@ -100,7 +100,7 @@ const Services = () => {
           <div className="services-left">
 
             <span className="services-tag">
-              NISS Digital Solutions
+             Klik Digi Setu
             </span>
 
             <h1 className="hero-head">

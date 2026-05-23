@@ -98,7 +98,7 @@ const Dashboard = () => {
         <div className="dashboard-header">
 
           <span className="dashboard-tag">
-            NISS ADMIN PANEL
+            KDS ADMIN PANEL
           </span>
 
           <h1>

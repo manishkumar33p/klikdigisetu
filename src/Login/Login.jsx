@@ -58,12 +58,12 @@ const Login = () => {
         <div className="login-left">
 
           <span className="login-tag">
-            NISS Admin Panel
+            KDS Admin Panel
           </span>
 
           <h1>
             Welcome Back To
-            <span> NISS Dashboard</span>
+            <span> KDS Dashboard</span>
           </h1>
 
           <p>

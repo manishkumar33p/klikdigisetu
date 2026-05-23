@@ -131,7 +131,7 @@ const ChatBot = () => {
 
     // BOT REPLY
     let botReply =
-      "Thanks 😊 Our team will contact you soon.";
+      "Thanks 😊 Our team will contact you soon.Please share your contact or email for further communication";
 
     if (input.toLowerCase().includes("price")) {
       botReply =

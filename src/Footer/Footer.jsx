@@ -104,7 +104,7 @@ const Footer = () => {
 
         {/* LEFT */}
         <div className="footer__col">
-          <h2>NISS Software Solutions</h2>
+          <h2>Klik Digi Setu</h2>
 
           <p>
             We build modern websites, mobile apps,
@@ -118,12 +118,12 @@ const Footer = () => {
 
           <div className="footer__info">
             <FaPhone />
-            <span>+91 9958424916</span>
+            <span>+91 9958424916, 9990046841</span>
           </div>
 
           <div className="footer__info">
             <FaEnvelope />
-            <span>contact@niss.com</span>
+            <span>contact@kds.com</span>
           </div>
 
           <div className="footer__info">
@@ -148,9 +148,9 @@ const Footer = () => {
           <h3>Follow Us</h3>
 
           <div className="footer__socials">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaLinkedinIn /></a>
+            <a href="https://www.facebook.com/profile.php?id=61590491004800"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/klikdigisetu/"><FaInstagram /></a>
+            <a href="https://www.linkedin.com/company/klik-digi-setu/"><FaLinkedinIn /></a>
           </div>
 
           <div className="footer__cta">
@@ -162,7 +162,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__bottom">
-        © {new Date().getFullYear()} NISS Software Solutions Pvt Ltd
+        © {new Date().getFullYear()} Klik Digi Setu Pvt Ltd
       </div>
 
     </footer>

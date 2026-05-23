@@ -188,10 +188,10 @@ const ContactUs = () => {
         );
 
         emailjs.sendForm(
-            'service_3z8pkj1',
-            'template_zfanfmp',
+            'service_ln661z3',
+            'template_8jnq0na',
             form.current,
-            'dKgJCNwJ0irTaeaZ1'
+            '2KZyT3Pd8osfJpezW'
         )
         .then(() => {
 
@@ -235,7 +235,7 @@ const ContactUs = () => {
                 {/* LEFT SIDE */}
                 <div className="contact-left">
 
-                    <span className="contact-tag">Contact NISS</span>
+                    <span className="contact-tag">Contact KDS</span>
 
                     <h1>
                         Let’s Build Something
@@ -266,7 +266,7 @@ const ContactUs = () => {
                         <div className="contact-card">
                             <FaEnvelope className="contact-icon" />
                             <h3>Email</h3>
-                            <p>newindiasoftwaresolutions@gmail.com</p>
+                            <p>klikdigisetu@gmail.com</p>
                         </div>
 
                     </div>
@@ -302,14 +302,25 @@ const ContactUs = () => {
                             required
                         />
 
-                        <input
+                        {/* <input
                             type="text"
                             name="phone"
                             placeholder="Mobile Number"
                             value={formData.phone}
                             onChange={handleChange}
                             required
-                        />
+                        /> */}
+
+
+                        <input type="tel"
+  name="phone"
+  placeholder="Mobile Number"
+  value={formData.phone}
+  onChange={handleChange}
+  required
+  pattern="[0-9]{10}"
+  title="Enter valid 10 digit mobile number"
+/>
 
                         <input
                             type="text"
