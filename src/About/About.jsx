@@ -209,6 +209,7 @@ import Niss73 from "../niss73.mp4";
 import CEO from "../N23.jpg";
 import CFO from "../N12.jfif";
 import COO from "../N2.jfif";
+import N20 from "../N20.jfif";
 
 const services = [
   {
@@ -423,6 +424,18 @@ const About = () => {
 
             <p>
             Overseeing daily operations and team management.
+            </p>
+          </div>
+
+           <div className="team-card">
+            <img src={N20} alt="CFO" />
+
+            <h3>Aanchal Kumari </h3>
+
+            <span>Director - Web and Technology</span>
+
+            <p>
+           Managing web technologies and digital solutions.
             </p>
           </div>
           
