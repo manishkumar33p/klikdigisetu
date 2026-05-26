@@ -84,8 +84,8 @@ li{
 
   object-fit: contain;
 
-  background: #fff;
-  border-radius: 50%;
+  background: transparent;
+  border-radius: 0;
   padding: 4px;
 }
 
@@ -411,4 +411,63 @@ li{
     height: 18px;
     font-size: 10px;
   }
+}
+
+
+
+
+
+
+
+
+/* ===================================
+        KLIK DIGI SETU LOGO
+=================================== */
+
+.kds_brand_logo_wrapper{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* MAIN LOGO */
+
+.kds_brand_main_logo{
+  width: auto;
+  height: 72px;
+
+  object-fit: contain;
+  display: block;
+
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+
+  transition: 0.3s ease;
+}
+
+/* HOVER EFFECT */
+
+.kds_brand_main_logo:hover{
+  transform: scale(1.02);
+}
+
+/* TABLET */
+
+@media screen and (max-width: 768px){
+
+  .kds_brand_main_logo{
+    height: 38px;
+  }
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 480px){
+
+  .kds_brand_main_logo{
+    height: 34px;
+  }
+
 }
