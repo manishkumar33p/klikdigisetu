@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { IoClose, IoMenu } from "react-icons/io5";
 import { FaShoppingCart } from "react-icons/fa";
 import "./Navbar.css";
-import logo2 from "../logo2.jpeg";
+import logo5 from "../logo5.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -46,7 +46,7 @@ const Navbar = () => {
   onClick={closeMenuOnMobile}
 >
   <img
-    src={logo2}
+    src={logo5}
     alt="Klik Digi Setu"
     className="kds_brand_main_logo"
   />
